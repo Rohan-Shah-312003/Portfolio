@@ -1,4 +1,4 @@
-Languages:
+Languages: Basics Completed.
 1. HTML
 2. CSS - Bootstrap, SASS framework
 3. JavaScript - React Framework

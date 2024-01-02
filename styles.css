@@ -126,6 +126,22 @@ div.line-separator.contacts {
 }
 
 
+/* Introductory Section */
+
+/* Headshot Image */
+.head-shot {
+    max-width:300px;
+    border-radius: 20px;
+}
+
+.intro-text {
+    
+}
+
+
+
+
+
 
 /* Services Title */
 .services-title-1 {
@@ -161,4 +177,11 @@ div.line-separator.contacts {
 
 .custom-card:hover {
     transform: scale(1.1);
+}
+
+.card-list li {
+    margin-left: -30px;
+    margin-bottom: 2px;
+    list-style: none;
+    font-size: 0.8rem;
 }
