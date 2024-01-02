@@ -150,3 +150,15 @@ div.line-separator.contacts {
     display:flex;
     justify-content: space-between;
 }
+
+.custom-card {
+    background-color: #252525;
+    color: ivory;
+    transition: transform 0.3s smooth;
+}
+
+.custom-card:hover {
+    transform: scale(1.1);
+    background-color: ivory;
+    color: #252525;
+}
