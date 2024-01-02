@@ -6,14 +6,13 @@ Languages:
 5. Python - Pandas, Numpy, Tensorflow, Scikit-learn
 
 
-Interests/Speciallities:
-1. Android App Developement
+Interests/Speciallities: Basics Completed.
+1. App Developement
 2. Machine Learning
 3. Server Backend
-4. UI/UX Graphic Designer
 
 
-Services:
+Services: Basics Completed.
 1. Full Stack Web Developement
 2. Android App Developement
 3. IOS App Developement 

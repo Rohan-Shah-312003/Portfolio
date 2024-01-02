@@ -22,9 +22,10 @@ body {
 }
 
 
-.container2 {
+.container2, .container3 {
     margin: 0 10rem 0 10rem;
 }
+
 
 /* Background Image */
 .header-image {
@@ -154,11 +155,10 @@ div.line-separator.contacts {
 .custom-card {
     background-color: #252525;
     color: ivory;
-    transition: transform 0.3s smooth;
+    transition: transform 0.3s ease-in;
+    border-radius: 15px ;
 }
 
 .custom-card:hover {
     transform: scale(1.1);
-    background-color: ivory;
-    color: #252525;
 }
