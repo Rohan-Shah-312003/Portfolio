@@ -1,28 +1,32 @@
 /* Defualt Settings */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #111111;
 }
 
-.navbar {
-    padding: 0;
-    margin: 10px;
-    position: absolute;
-
-}
-
-.navbar, .container1 {
+.navbar, .container1, .container4  {
     display: flex;
-    padding: 10px;
+    /*padding: 10px;*/
     margin: 0;
-    max-width: inherit;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
     justify-content: space-between;
 }
 
+.navbar {
+    padding: 0;
+    margin: 1rem 0 0 10px;
+    position: absolute;
+}
 
-.container2, .container3 {
+
+
+.container2, .container3{
     margin: 0 10rem 0 10rem;
 }
 
@@ -113,35 +117,120 @@ div.line-separator.contacts {
 }
 
 /* Contact Me Button At Header */
-.header-contact-me-btn {
+.header-contact-me-btn, .header-contact-me-btn2, .modal-close-btn, .modal-btn {
     background-color: #FFFFF0;
     color: #252525;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    transition: transform 0.15s ease-in;
 }
-.header-contact-me-btn:hover {
+.header-contact-me-btn:hover, .header-contact-me-btn2:hover, .modal-close-btn:hover, .modal-btn:hover {
     background-color: #252525;
     color: #FFFFF0;
-    border-color: #000000;
+    border-color: transparent;
     border-radius: 4px;
     border-width: 2px;
+    transform: scale(1.1);
+}
+
+/* Modal for contact */
+.modal-content {
+    border-radius: 20px;
+    background-color: #252525;
+}
+
+.close, .close:hover {
+    color: ivory;
 }
 
 
 /* Introductory Section */
 
+.container3 {
+    margin: 5rem 10rem 5rem 10rem;
+}
+
 /* Headshot Image */
 .head-shot {
+    margin-top: 20px;
     max-width:300px;
     border-radius: 20px;
 }
+div.row .col-sm {
+    max-width: 320px;
+}
+
+/* Introductory Text */
+
+.intro-div {
+    margin-top: -10px;
+}
 
 .intro-text {
-    
+    color:#FFFFF0;
+}
+
+.intro-heading {
+    color:bisque;
+    font-family: 'DM Serif Display', serif;
+}
+
+.intro-subheading {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 27px;
+}
+
+.intro-paragh {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 14px;
 }
 
 
+/* Horizontal Division */ 
+.horizontal-divison {
+    border-top: 1px solid #FFFFF0;
+    margin: 10px 0 10px 0;
+}
 
+/* Personal Details */
 
+div.personal-details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
 
+div.personal-details li {
+    list-style: none;
+    display: flex;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    padding: 10px;
+    text-align:inherit;
+    align-items: center;
+    padding: 10% 5% 0 17%;
+    font-size: 15px;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.content {
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* DownLoad CV button */
+
+.header-contact-me-btn2, .header-contact-me-btn2:hover {
+    margin: 0;
+    width: auto;
+    font-size: 15px;
+    border-color: transparent;
+}
 
 /* Services Title */
 .services-title-1 {
@@ -184,4 +273,15 @@ div.line-separator.contacts {
     margin-bottom: 2px;
     list-style: none;
     font-size: 0.8rem;
+}
+
+/* Contact List Footer */
+
+.container4 {
+    margin-left: 5rem;
+}
+
+.contact-list-footer {
+    color: #FFFFF0;
+    display: inline;
 }
