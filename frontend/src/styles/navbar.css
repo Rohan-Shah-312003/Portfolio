@@ -1,0 +1,54 @@
+.glass-navbar {
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: border to enhance the effect */
+  padding: 1rem 2rem;
+  border-radius: 10px; /* Rounded corners for a smoother look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.glass-navbar h1 {
+    color: white;
+    margin: 0;
+}
+
+.glass-navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.glass-navbar li {
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.glass-navbar li:hover {
+    color: #ddd;
+}
+
+
+
+.navbar-p {
+  background: rgba(255, 255, 255, 0.044); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: border to enhance the effect */
+  padding: 1rem 2rem;
+  border-radius: 10px; /* Rounded corners for a smoother look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link-p:hover {
+  color: #ddd;
+}

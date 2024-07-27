@@ -1,0 +1,32 @@
+.profile {
+  width: 60%;
+  height: auto;
+  margin-right: 20px;
+  display: inline-block;
+  border-radius: 10px; /* Rounded corners for a smoother look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+  min-width: 250px;
+}
+
+.section2 {
+  background-color: rgba(240, 240, 205, 0.441);
+}
+.card {
+  padding: 10px;
+  border-radius: 10px; /* Rounded corners for a smoother look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+  align-items: center;
+  width: 100%;
+  max-width: 220px;
+  min-width: 220px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Rounded corners for a smoother look */
+  padding: 0;
+  margin: 0;
+}
+
+
